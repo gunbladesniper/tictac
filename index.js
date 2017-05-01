@@ -47,14 +47,21 @@ function handleBoxClick(){
 
 function checkWin(player){
 	var myMoves = player.moves.sort((a, b)=>{
-		return a <b;
+		return a >b;
 	}).join('');
-	console.log(myMoves);
-}
-function game(p1,p2){
-	var turnPlayer = p1;
-	while(true){
 
-		return;
+	for(var key in wins){
+		if(myMoves.includes(key)){
+			return true;
+		}
+	}
+	return false
+}
+function game(){
+	while(true){
+		if(checkWin(turnPlayer)){
+			display.innerHTML = 'You Win';
+			return;
+		}
 	}
 }
