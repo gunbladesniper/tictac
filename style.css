@@ -3,5 +3,12 @@
 	height: 500px;
 }
 td {
-	background-color: red;
+	background-color: tan;
+}
+
+.p1-color{
+	background-color: black;
+}
+.p2-color{
+	background-color: blue;
 }
