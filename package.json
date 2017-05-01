@@ -1,0 +1,8 @@
+{
+  "name": "tictac",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gunbladesniper/tictac.git",
+  "author": "Savaughn Jones <savaughnjones@gmail.com>",
+  "license": "MIT"
+}

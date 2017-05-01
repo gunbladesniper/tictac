@@ -1,0 +1,7 @@
+#tictactoe-board{
+	width:500px;
+	height: 500px;
+}
+td {
+	background-color: red;
+}
